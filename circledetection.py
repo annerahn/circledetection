@@ -82,3 +82,6 @@ def detection():
     #cv2.waitKey(0) # waits indefinitely untill a key (any key) is pressed inside the display window
 
     return Response(json.dumps(output_dict, indent=4), mimetype='application/json')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080, debug=True)
