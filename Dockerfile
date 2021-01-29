@@ -1,5 +1,5 @@
 # start with a base image
-FROM python:3-slim
+FROM python:3
 EXPOSE 8080
 
 COPY ./requirements.txt /app/requirements.txt
