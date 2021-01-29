@@ -1,6 +1,6 @@
 # start with a base image
 FROM python:3
-EXPOSE 8080
+EXPOSE 8000
 
 COPY ./requirements.txt /app/requirements.txt
 WORKDIR /app
