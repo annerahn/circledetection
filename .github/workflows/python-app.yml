@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 env:
   AZURE_WEBAPP_NAME: circledetection    # set this to your application's name
